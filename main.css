@@ -37,7 +37,7 @@ img {
     height: 300px; 
     object-fit: cover;
 }
-@media (min-width: 200px) and (max-width: 750px){
+@media (min-width: 300px) and (max-width: 750px){
     .jep{
         display:flex;
         flex-direction: column;
@@ -46,5 +46,11 @@ img {
     .jep img { 
         width: 50%; 
         object-fit: contain;
+    }
+    .abz{
+        font-size: 1.5em;
+    }
+    .zag{
+        font-size: 1.5em;
     }
 }
