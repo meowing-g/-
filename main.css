@@ -1,0 +1,50 @@
+.fon{
+    background-image: url('https://avatars.mds.yandex.net/i?id=b1e173ba92a2d7e69088fb6843c443d7d87f8513-5289344-images-thumbs&n=13');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    color: white;
+}
+.zag{
+    font-size: 2em;
+    text-align: center;
+}
+.abz{
+    background-color: lightpink ;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    color: white;
+    font-size: 2em;
+    text-align: justify;
+    border-radius: 20px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.jep{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;   
+}
+.jep img { 
+    height: 300px; 
+    object-fit: cover;
+}
+@media (min-width: 500px) and (max-width: 750px){
+    .jep{
+        display:flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .jep img { 
+        width: 50%; 
+        object-fit: contain;
+    }
+}
